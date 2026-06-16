@@ -96,12 +96,37 @@ nav a:hover {
 }
 
 /* Nome da empresa posicionado à esquerda */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.link-logo {
+  text-decoration: none;
+}
+
 .nome_empresa {
-  color: #dcdcdc;
-  font-size: 24px;
+  color: white;
+  font-size: 2rem;
+  margin: 0;
   font-family: "Cinzel", serif;
-  position: absolute;
-  left: 8%;
+  white-space: nowrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
 }
 
 /* ============================================
@@ -963,4 +988,32 @@ footer {
   .numero-item:last-child {
     border-bottom: none;
   }
+}
+
+
+.troca-form{
+    text-align:center;
+    margin-top:20px;
+}
+
+.troca-form p{
+    color:#64b5f6;
+    font-family:"Lato", sans-serif;
+}
+
+.troca-form a{
+    color:#00aaff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.troca-form a:hover{
+    color:#00ccff;
+}
+
+.separador {
+  display: block;
+  font-size: 30px;
+  color: #00aaff;
+  margin: 10px 0;
 }
